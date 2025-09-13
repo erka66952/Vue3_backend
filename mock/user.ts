@@ -1,5 +1,5 @@
 //createUserList:次函数执行会返回一个数组,数组里面包含两个用户信息
-function createUserList() {
+function createUserList()  {
   return [
     {
       userId: 1,
