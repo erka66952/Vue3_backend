@@ -59,6 +59,7 @@ export default [
   {
     url: '/api/user/login', //请求地址
     method: 'post', //请求方式
+    //@ts-ignore
     response: ({ body }) => {
       console.log('mock登录接口访问成功')
       //获取请求体携带过来的用户名与密码
